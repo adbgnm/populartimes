@@ -3,6 +3,7 @@
 
 from .crawler import run
 from .crawler import get_populartimes
+from .crawler import get_populartimes_from_search
 
 import logging
 logging.getLogger(__name__).addHandler(logging.NullHandler())
